@@ -5,12 +5,19 @@
 #
 # Example showing how you can enable composer support in this file:
 #
-#appdata:
-#  volumes:
-#    - ~/.composer:/var/www/.composer
-#    - ./html/app/code:/var/www/html/app/code
-#    - ./html/app/design:/var/www/html/app/design
-#
+appdata:
+  volumes:
+    - ./html/bin:/var/www/html/bin
+    - ./html/var:/var/www/html/var
+    - ./html/vendor:/var/www/html/vendor
+    - ./html/pub:/var/www/html/pub
+    - ./html/app/code:/var/www/html/app/code
+    - ./html/app/design:/var/www/html/app/design
+
+dbdata:
+  volumes:
+    - .docker/db:/var/lib/mysql
+
 #setup:
 #  environment:
 #    - M2SETUP_USE_ARCHIVE=false
