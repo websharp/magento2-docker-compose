@@ -1,0 +1,1 @@
+docker-compose exec phpfpm ./bin/n98-magerun2.phar --root-dir=/var/www/html "%*"

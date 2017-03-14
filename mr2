@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker-compose exec phpfpm ./bin/magento
+docker-compose exec phpfpm ./bin/n98-magerun2.phar --root-dir=/var/www/html "$@"

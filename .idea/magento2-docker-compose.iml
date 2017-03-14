@@ -17,14 +17,18 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/html/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
           <root url="phar://$MODULE_DIR$/html/app/code/bitExpert/ForceCustomerLogin/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
           <root url="phar://$MODULE_DIR$/html/vendor/magento/zendframework1/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder.phar/" />
+          <root url="phar://$MODULE_DIR$/html/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/n98-magerun2.phar/" />
+          <root url="phar://$MODULE_DIR$/html/bin/n98-magerun2.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/html/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
           <root url="phar://$MODULE_DIR$/html/app/code/bitExpert/ForceCustomerLogin/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
           <root url="phar://$MODULE_DIR$/html/vendor/magento/zendframework1/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder.phar/" />
+          <root url="phar://$MODULE_DIR$/html/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/n98-magerun2.phar/" />
+          <root url="phar://$MODULE_DIR$/html/bin/n98-magerun2.phar/" />
         </SOURCES>
       </library>
     </orderEntry>

@@ -10,13 +10,13 @@ appdata:
     - ./html/bin:/var/www/html/bin
     - ./html/var:/var/www/html/var
     - ./html/vendor:/var/www/html/vendor
-    - ./html/pub:/var/www/html/pub
+#    - ./html/pub:/var/www/html/pub
     - ./html/app/code:/var/www/html/app/code
-    - ./html/app/design:/var/www/html/app/design
+#    - ./html/app/design:/var/www/html/app/design
 
-dbdata:
-  volumes:
-    - .docker/db:/var/lib/mysql
+#dbdata:
+#  volumes:
+#    - .docker/db:/var/lib/mysql
 
 #setup:
 #  environment:
